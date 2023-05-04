@@ -41,7 +41,7 @@ const btn=document.querySelector("#new-quote");
 const person=document.querySelector(".person");
 const quote=document.querySelector(".quote");
 
-
+console.log("RANDOM QUOTE GENERATOR");
 btn.addEventListener("click",function(){
     let random=Math.trunc(Math.random()*quotes.length);
     const obj=quotes.at(random);
